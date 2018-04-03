@@ -1,6 +1,6 @@
 const roster = (state = [], action) => {
 	switch(action.type) {
-		case 'RECEIVED_INITIAL_ROSTER_DATA':
+		case 'RECEIVED_ROSTER_DATA':
 			return action.data
 		default:
 			return state;
