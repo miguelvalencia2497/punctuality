@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,yCAAe;EACd,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI",
+"sources": ["../sass/period-selector.scss"],
+"names": [],
+"file": "period-selector.css"
+}

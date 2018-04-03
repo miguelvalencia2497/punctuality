@@ -1,0 +1,19 @@
+.table-container {;
+	overflow: auto;
+	flex: 1;
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		height: 40%;
+		overflow: auto;
+		thead {
+			tr {
+				border-bottom: 1px solid #eee;
+				th {
+					text-align: left;
+					padding: 15px;
+				}
+			}
+		}
+	}
+}

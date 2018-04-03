@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB;EAChB,QAAQ,EAAE,IAAI;EACd,IAAI,EAAE,CAAC;EACP,sBAAM;IACL,KAAK,EAAE,IAAI;IACX,eAAe,EAAE,QAAQ;IACzB,MAAM,EAAE,GAAG;IACX,QAAQ,EAAE,IAAI;IAEb,+BAAG;MACF,aAAa,EAAE,cAAc;MAC7B,kCAAG;QACF,UAAU,EAAE,IAAI;QAChB,OAAO,EAAE,IAAI",
+"sources": ["../sass/shifts-list.scss"],
+"names": [],
+"file": "shifts-list.css"
+}

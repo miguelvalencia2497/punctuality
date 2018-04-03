@@ -1,0 +1,12 @@
+.user-info {
+  display: flex;
+  flex-flow: row;
+  align-items: center; }
+  .user-info .user-image {
+    width: 50px;
+    border: 1px solid #eee;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 20px; }
+
+/*# sourceMappingURL=user-info.css.map */

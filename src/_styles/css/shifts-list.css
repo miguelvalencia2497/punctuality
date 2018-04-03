@@ -1,0 +1,15 @@
+.table-container {
+  overflow: auto;
+  flex: 1; }
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 40%;
+    overflow: auto; }
+    .table-container table thead tr {
+      border-bottom: 1px solid #eee; }
+      .table-container table thead tr th {
+        text-align: left;
+        padding: 15px; }
+
+/*# sourceMappingURL=shifts-list.css.map */

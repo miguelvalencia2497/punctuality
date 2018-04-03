@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,WAAW,EAAE,wBAAwB;EACrC,MAAM,EAAE,CAAC;EACT,eAAW;IACV,MAAM,EAAE,KAAK;IACb,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,MAAM;IACjB,eAAe,EAAE,aAAa",
+"sources": ["../sass/punctuality-app.scss"],
+"names": [],
+"file": "punctuality-app.css"
+}

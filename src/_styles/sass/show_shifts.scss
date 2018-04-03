@@ -1,0 +1,44 @@
+.show-shifts-container {
+	padding: 10px 20px;
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	select {
+		background: none;
+		padding: 5px 10px;
+		width: 80px;
+	}
+	.pagination-container {
+		text-align: right;
+		.buttons {
+			margin-bottom: 5px;
+			button {
+				padding: 10px 15px;
+				border-radius: 0;
+				border: 1px solid #eee;
+				background: none;
+				cursor: pointer;
+				color: #333;
+				&:hover {
+					background: #f4f4f4;
+				}
+
+				&:disabled {
+					background: #f4f4f4;
+					color: #E4E4E4;
+				}
+
+				&.prev {
+					border-right: 0;
+					border-top-left-radius: 6px;
+					border-bottom-left-radius: 6px;
+				}
+				&.next {
+					border-top-right-radius: 6px;
+					border-bottom-right-radius: 6px;
+				}
+			}
+		}
+	}
+}

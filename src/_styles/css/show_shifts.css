@@ -1,0 +1,35 @@
+.show-shifts-container {
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .show-shifts-container select {
+    background: none;
+    padding: 5px 10px;
+    width: 80px; }
+  .show-shifts-container .pagination-container {
+    text-align: right; }
+    .show-shifts-container .pagination-container .buttons {
+      margin-bottom: 5px; }
+      .show-shifts-container .pagination-container .buttons button {
+        padding: 10px 15px;
+        border-radius: 0;
+        border: 1px solid #eee;
+        background: none;
+        cursor: pointer;
+        color: #333; }
+        .show-shifts-container .pagination-container .buttons button:hover {
+          background: #f4f4f4; }
+        .show-shifts-container .pagination-container .buttons button:disabled {
+          background: #f4f4f4;
+          color: #E4E4E4; }
+        .show-shifts-container .pagination-container .buttons button.prev {
+          border-right: 0;
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px; }
+        .show-shifts-container .pagination-container .buttons button.next {
+          border-top-right-radius: 6px;
+          border-bottom-right-radius: 6px; }
+
+/*# sourceMappingURL=show_shifts.css.map */

@@ -1,0 +1,39 @@
+.user-performance-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 20px; }
+  .user-performance-container .CircularProgressbar {
+    width: 10%;
+    font-weight: 900; }
+    .user-performance-container .CircularProgressbar .CircularProgressbar-text {
+      font-size: 35px; }
+  .user-performance-container p {
+    width: 40%;
+    text-align: center; }
+  .user-performance-container .info-container {
+    display: flex;
+    flex-flow: row;
+    width: 60%;
+    justify-content: space-around;
+    align-items: space-around; }
+    .user-performance-container .info-container div {
+      text-align: center;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      width: 20%;
+      border: 1px solid #eee;
+      cursor: pointer; }
+      .user-performance-container .info-container div:hover {
+        background: #f4f4f4; }
+      .user-performance-container .info-container div h4 {
+        color: #7f8c8d; }
+      .user-performance-container .info-container div span {
+        font-weight: 700; }
+
+/*# sourceMappingURL=user-performance.css.map */
