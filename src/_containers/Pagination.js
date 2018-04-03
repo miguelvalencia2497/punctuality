@@ -24,6 +24,8 @@ class Pagination extends Component {
 				return shift;
 			else if (this.props.filter==='punctual'&&!((moment(shift.start).isAfter(roster.start))&&(moment(shift.finish).isBefore(roster.finish))))
 				return shift;
+
+			return null;
 		});
 	}
 
@@ -41,7 +43,6 @@ class Pagination extends Component {
 		var indexOfLastShift = this.props.pagination.currentPage * this.props.pagination.dataPerPage;
 		var indexOfFirstShift = indexOfLastShift - this.props.pagination.dataPerPage;
 
-		console.log(lastPage);
 		return (
 			<div className="pagination-container">
 				<div className="buttons">

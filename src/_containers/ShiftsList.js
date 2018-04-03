@@ -71,6 +71,8 @@ class ShiftsList extends Component {
 				return shift;
 			else if (this.props.filter==='punctual'&&!((moment(shift.start).isAfter(roster.start))&&(moment(shift.finish).isBefore(roster.finish))))
 				return shift;
+
+			return null;
 		});
 	}
 
